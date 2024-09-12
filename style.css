@@ -262,6 +262,20 @@ a {
     text-decoration: none;
     position: relative;
   }
+
+/* whatsappp */
+.whatsapp-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure the logo is on top of the chat window */
+    color: #18ea57;
+}
+
+.whatsapp-logo i {
+    font-size:5cap;
+    color: #18ea57;
+}
   
   .nav-a:hover {
     text-decoration: none; /* Remove the default underline */
