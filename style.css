@@ -276,7 +276,21 @@ a {
     font-size:5cap;
     color: #18ea57;
 }
-  
+
+/* Keyframes for rotating WhatsApp logo */
+@keyframes rotate-logo {
+    0% {
+        transform: rotate(0deg); /* Starting at 0 degrees */
+    }
+   
+    50% {
+        transform: rotate(90deg); /* Rotate to 90 degrees */
+    }
+     
+    100% {
+        transform: rotate(0deg); /* Return to 0 degrees */
+    }
+}
   .nav-a:hover {
     text-decoration: none; /* Remove the default underline */
     box-shadow: inset 0 -2px 0 red; /* Adds an underline with 5px gap */
