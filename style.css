@@ -268,8 +268,9 @@ a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 1000; /* Ensure the logo is on top of the chat window */
+    z-index: 1000;
     color: #18ea57;
+    animation: rotate-logo 2s ease-in-out infinite; /* Apply rotation animation */
 }
 
 .whatsapp-logo i {
