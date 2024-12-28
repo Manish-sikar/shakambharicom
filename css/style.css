@@ -938,4 +938,11 @@ textarea#comment::placeholder {
     background-color: brown;
     color: white;
 }
+.sticky-no1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #E9DF82;
+}
 
