@@ -943,6 +943,6 @@ textarea#comment::placeholder {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #E9DF82;
+/*     background-color: #E9DF82; */
 }
 
