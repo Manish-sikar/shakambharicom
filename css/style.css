@@ -924,5 +924,18 @@ textarea#comment::placeholder {
 }
 
 
+/* uper sttiky header */
+#no1 {
+    background-color: brown;
+}
 
+.social-icon a:hover {
+    color: green;
+}
+
+.social-icon a {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+}
 
